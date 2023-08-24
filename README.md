@@ -23,3 +23,7 @@
 
 - [x] `X-Ladon` (生成)
 - [x] `X-Argus` (解包)
+
+## Contact me
+- [My Blog](https://jpacg.me)
+- [Telegram](https://t.me/jpacg)
