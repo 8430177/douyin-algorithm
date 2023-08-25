@@ -128,6 +128,8 @@ std::string decrypt_argus(const char *x_argus) {
     }
 
     ByteBuf pb_ba(protobuf, new_len);
+    delete[] b_buffer;
+    delete[] protobuf;
     uint32_t padding_size = pb_ba.remove_padding();
     if (padding_size == new_len) {
         return {(const char *)pb_ba.data(), pb_ba.size()};
